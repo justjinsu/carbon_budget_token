@@ -1,0 +1,14 @@
+
+reference_series: IGCC   # or GCB
+units: tCO2
+decimals: 18
+emissions_source: GCB
+provisional_source: Carbon Monitor
+reconciliation: annual
+reconciliation_policy:
+  max_mint_delta_tCO2: 0.5e9
+  max_burn_delta_tCO2: 0.5e9
+governance:
+  voting: Snapshot (offchain)
+  execution: Safe multisig (onchain)
+  timelock_days: 2

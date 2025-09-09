@@ -1,0 +1,22 @@
+{
+  "name": "carbon-budget-token",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "echo 'add eslint/prettier if needed'",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.12",
+    "typescript": "^5.6.2",
+    "ts-node": "^10.9.2",
+    "prettier": "^3.3.3"
+  }
+}

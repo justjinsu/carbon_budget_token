@@ -1,0 +1,4 @@
+
+# date,metric,value,units,source,url,sha256
+2025-01-01,reference_budget,130000000000,tCO2,IGCC,https://example.org/igcc.csv,<hash>
+2025-12-31,emissions,40000000000,tCO2,GCB,https://example.org/gcb.csv,<hash>
